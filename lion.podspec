@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author       = { "Alex" => "zhumengli@zuoyebang.com" }
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/mengliZhu/lion.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/mengliZhu/lion.git" }
   s.source_files  = "Classes/*.{h,m}"
   s.public_header_files = "Classes/*.h"
   s.resources = "Resources/*.png"
