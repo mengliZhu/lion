@@ -11,6 +11,7 @@
 @implementation UIView (RSAdditions)
 
 - (CGFloat)top {
+    NSLog(@"%@",@"hello this is Version 0.0.7");
     return self.frame.origin.y;
 }
 
