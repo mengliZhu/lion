@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "lion"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A short description of lion."
   s.homepage     = "https://github.com/mengliZhu/lion.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Alex" => "zhumengli@zuoyebang.com" }
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
-  s.source       = { :git => "https://github.com/mengliZhu/lion.git" }
+s.source       = { :git => "https://github.com/mengliZhu/lion.git" :tag => "0.0.6" }
   s.source_files  = "Classes/*.{h,m}"
   s.public_header_files = "Classes/*.h"
   s.resources = "Resources/*.png"
