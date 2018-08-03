@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/mengliZhu/lion.git", :tag => s.version.to_s }
-  s.source_files  = "lcleaion/Classes/*.{h,m}"
-  s.public_header_files = "lion/Classes/*.h"
-  s.resources = "lion/Resources/*.png"
+  s.source_files  = "Classes/*.{h,m}"
+  s.public_header_files = "Classes/*.h"
+  s.resources = "Resources/*.png"
   s.requires_arc = true
   s.frameworks = "UIKit", "Foundation"
 
